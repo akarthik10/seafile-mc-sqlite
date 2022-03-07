@@ -61,4 +61,4 @@ jobs:
           platforms: linux/amd64,linux/arm/v7
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta_step.outputs.tags }}
-          labels: ${{ steps.<meta_id>.outputs.labels }}            
+          labels: ${{ steps.meta_step.outputs.labels }}            
