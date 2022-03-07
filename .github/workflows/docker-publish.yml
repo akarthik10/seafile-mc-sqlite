@@ -44,7 +44,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            <specify the image name>
+           akarthik10/seafile-mc-sqlite
           # Docker tags based on the following events/attributes
           tags: |
             type=schedule
