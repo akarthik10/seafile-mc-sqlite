@@ -1,4 +1,4 @@
-FROM seafileltd/seafile-mc:9.0.9
+FROM seafileltd/seafile-mc:10.0.1
 
 RUN apt-get update \
 	&& apt-get install -y sqlite3 \
